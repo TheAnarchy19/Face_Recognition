@@ -1,33 +1,32 @@
+# Proyecto de Reconocimiento Facial
+
+Este proyecto utiliza OpenCV para realizar el reconocimiento facial en imágenes y video en tiempo real. El sistema está diseñado para detectar y reconocer rostros utilizando el clasificador de características de Haar y un modelo de reconocimiento facial LBPH (Local Binary Patterns Histograms).
+
+## Características
+
+- **Entrenamiento Automático**: El sistema entrena el modelo de reconocimiento facial a partir de imágenes almacenadas en una base de datos de rostros.
+- **Detección de Rostros**: Detecta rostros en imágenes o video en tiempo real usando un clasificador de Haar.
+- **Interfaz Gráfica**: Una interfaz gráfica básica con Tkinter para visualizar los resultados.
+- **Soporte para Cámara y Archivos de Imágenes**: El sistema intenta usar la cámara del dispositivo, pero si no está disponible, utiliza una imagen estática de prueba.
+
+
 ## Instalación
 
 ### Requisitos
 
-Asegúrate de tener las siguientes dependencias instaladas en tu entorno de Python:
+Asegúrate de tener las siguientes dependencias instaladas:
 
 - `opencv-python`
 - `opencv-python-headless`
 - `numpy`
 - `Pillow`
-- `tkinter` (si no está instalado en tu entorno, se puede instalar con `sudo apt-get install python3-tk` en sistemas basados en Debian)
+- `tkinter` (si no está instalado en tu entorno, puedes instalarlo con `sudo apt-get install python3-tk` en sistemas basados en Debian)
 
-Para instalar las dependencias, ejecuta el siguiente comando:
+Instala las dependencias usando `pip`:
 
 ```bash
-pip install opencv-python opencv-python-headless numpy 
+pip install opencv-python opencv-python-headless numpy Pillow
+```
 
-### Contribuciones
-
-Si deseas contribuir a este proyecto, siéntete libre de hacer un "fork" y enviar un "pull request". Asegúrate de seguir las mejores prácticas de codificación y escribir pruebas para cualquier nueva funcionalidad que añadas.
-
-### Explicación de Secciones del `README.md`
-
-1. **Introducción y Características**: Aquí se describe el propósito del proyecto y sus funcionalidades principales.
-2. **Estructura del Proyecto**: Un desglose de la estructura del directorio, para que los usuarios comprendan cómo está organizado el código.
-3. **Instalación**: Instrucciones sobre cómo instalar las dependencias necesarias y cómo preparar las imágenes de entrenamiento.
-4. **Ejecutar el Proyecto**: Pasos para ejecutar el proyecto y probarlo.
-5. **Funciones Principales**: Descripción de las funciones y archivos clave dentro del proyecto.
-6. **Mejoras Futuras**: Algunas ideas para mejorar y expandir el proyecto en el futuro.
-7. **Contribuciones y Licencia**: Instrucciones sobre cómo contribuir y la licencia del proyecto.
-
-Este archivo `README.md` proporciona una guía clara para que otros usuarios comprendan y puedan usar, instalar o contribuir al proyecto. ¡Hazme saber si necesitas más detalles o ajustes!
-
+### Licencia
+Este `README.md` incluye información clave sobre la instalación, ejecución y estructura del proyecto, además de explicar cómo funciona y cómo puedes contribuir.
