@@ -1,4 +1,4 @@
-# Proyecto de Reconocimiento Facial
+# Proyecto sobre Reconocimiento Facial
 
 Este proyecto utiliza OpenCV para realizar el reconocimiento facial en imágenes y video en tiempo real. El sistema está diseñado para detectar y reconocer rostros utilizando el clasificador de características de Haar y un modelo de reconocimiento facial LBPH (Local Binary Patterns Histograms).
 
